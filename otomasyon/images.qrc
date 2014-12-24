@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/isletme_icon.png</file>
+        <file>icons/main_background2.png</file>
+        <file>icons/win_icon.png</file>
+        <file>icons/hesap_icon.png</file>
+        <file>icons/ok_icon.png</file>
+        <file>icons/save_icon.png</file>
+        <file>icons/search_icon.png</file>
+        <file>icons/close_icon.png</file>
+        <file>icons/kayit_icon.png</file>
+        <file>icons/table_icon.png</file>
+        <file>icons/buy_icon.png</file>
+        <file>icons/sell_icon.png</file>
+        <file>icons/kasa_icon.png</file>
+        <file>icons/musteri_icon.png</file>
+        <file>icons/help_icon.png</file>
+        <file>icons/isyeri_icon.png</file>
+        <file>icons/lizardmain.png</file>
+        <file>icons/lizard_main_icon.png</file>
+    </qresource>
+</RCC>
