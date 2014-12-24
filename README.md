@@ -1,0 +1,4 @@
+Otomasyon-QT
+============
+
+Proje bitiş
