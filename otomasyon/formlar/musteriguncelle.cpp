@@ -22,6 +22,7 @@ void musteriguncelle::setVeritabani(veritabani *yeniVt)
 
 void musteriguncelle::on_btnKaydet_clicked()
 {
+    if(ui->edtMusteriAdi->text()!="" && ui->edtMusteriAdresi->text()!="" && ui->edtMusteriSoyadi->text()!=""){
     QMessageBox::information(this,
                           "Başarılı",
                           "Müşteri güncellendi. Lütfen tabloyu kapatıp açınız.");
@@ -31,7 +32,12 @@ void musteriguncelle::on_btnKaydet_clicked()
 
     accept();
 }
-
+    else{
+        QMessageBox::critical(this,
+                              "Müşteri Güncelleme Hatalı",
+                              "Lütfen bütün bilgileri doldurun. Kayıt iptal edildi.");
+    }
+}
 void musteriguncelle::on_btnVazgec_clicked()
 {
     reject();

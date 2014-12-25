@@ -100,7 +100,14 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QLineEdit" name="edtUrunKod"/>
+         <widget class="QLineEdit" name="edtUrunKod">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLineEdit" name="edtUrunAdi"/>

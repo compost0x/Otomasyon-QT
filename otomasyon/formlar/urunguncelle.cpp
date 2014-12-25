@@ -21,6 +21,7 @@ void urunguncelle::setVeritabani(veritabani *yeniVt)
 }
 void urunguncelle::on_btnKaydet_clicked()
 {
+    if(ui->edtUrunAdi->text()!="" && ui->edtBirimFiyati->text()!="" && ui->edtOlcuBirimi->text()!=""){
     QMessageBox::information(this,
                           "Başarılı",
                           "Ürün güncellendi. Lütfen tabloyu kapatıp açınız.");
@@ -30,6 +31,13 @@ void urunguncelle::on_btnKaydet_clicked()
     su_ptrurunveri->setOlcuBirimi(ui->edtOlcuBirimi->text());
 
     accept();
+}
+
+else{
+QMessageBox::critical(this,
+                      "Ürün Güncelleme Hatalı",
+                      "Lütfen bütün bilgileri doldurun. Kayıt iptal edildi.");
+}
 }
 
 void urunguncelle::ekranaAktar()

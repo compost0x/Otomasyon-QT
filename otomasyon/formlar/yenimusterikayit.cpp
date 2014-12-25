@@ -62,8 +62,8 @@ void yenimusterikayit::on_btnKaydet_clicked()
 }
     else{
         QMessageBox::critical(this,
-                                                        "Müşteri Kayıt Hatalı",
-                                                        "Lütfen bütün bilgileri doldurun. Kayıt iptal edildi.");
+                              "Müşteri Kayıt Hatalı",
+                              "Lütfen bütün bilgileri doldurun. Kayıt iptal edildi.");
     }
     }
     }
